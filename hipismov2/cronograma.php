@@ -10,7 +10,7 @@
 <body id="corpoGeral">
     <div >
         <div class="titulo">
-            <h1>Cronograma Temporada </br> 2023</h1>
+            <h1 style="color: white; font-size:50px">Cronograma Temporada </br> 2023</h1>
             <button style="
                     
                     background-color: #fff;
@@ -41,7 +41,7 @@
                     margin: 5px 5px;
                     display: inline;
                     align-items:center;"> 
-                    <a style="text-decoration: none; color:black" href="PROGRAMA TEMPORADA 2023.pdf">Baixe o Cronograma aqui </a>
+                    <a style="text-decoration: none; color:black" href="docs/PROGRAMA_TEMPORADA23.pdf">Baixe o Cronograma aqui </a>
             </button>
         </div>
             

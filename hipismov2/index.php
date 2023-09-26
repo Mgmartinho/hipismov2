@@ -33,10 +33,11 @@
             color: white;
             border: none;
             border-radius: 5px;
-            padding: 8px 10px;
+            padding: 8px 2px;
             cursor: pointer;
             font-size: 20px;
-            margin: 2px 8px;
+            margin: 2px 4px;
+            margin-left: 15px;
             display: inline;
             align-items:center;
             
@@ -71,13 +72,13 @@
         <div >
             <img width="auto" height="650px" style="border-radius: 20px; ;" src="logoTemporada.jpeg" alt="Imagem Média">
             
-            <span><button class="tab-button" onclick="openCadastroPage()"> Cadastrar </button></span>
-            <span><button class="tab-button" onclick="openConsultaPage()"> Prova </button></span>
+            <span><button class="tab-button" onclick="openCadastroPage()"> Ordem de Entrada </button></span>
+            <span><button class="tab-button" onclick="openConsultaPage()"> Resultado </button></span>
             <span><button class="tab-button" onclick="openCronogramaPage()"> Cronograma </button></span>
         </div>
         <div class="content">
             <!-- Conteúdo da página atual -->
-            <h1>40º Torneio Hípico da Polícia Militar do Estado de São Paulo</h1>
+            <h1 style=" font-size:40px">40º Torneio Hípico da Polícia Militar do Estado de São Paulo</h1>
             <h3>Regimento de Polícia Montada "9 de Julho"</h3>
             <h5 style="padding-bottom: 0px; margin-bottom: 0px;">Designed by Martinho Aux Telemática</h5>
         </div>
@@ -87,12 +88,12 @@
     <script>
         function openCadastroPage() {
             // Redirecionar para a página de cadastro
-            window.location.href = "cadastroParticipantes.php";
+            window.location.href = "docs/resultados.pdf";
         }
 
         function openConsultaPage() {
             // Redirecionar para a página de consulta
-            window.location.href = "consultaparticipantes.php";
+            window.location.href = "docs/ordem.pdf";
         }
 
         function openCronogramaPage() {
